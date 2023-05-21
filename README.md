@@ -17,6 +17,7 @@ sudo npm install -g json-server
   "gacha": []
 }
 ```
+Optional: Alternatively you can just download the `db.json` file from my Github repository.
 
 4. Navigate to your where you saved your `db.json` file in the terminal by running `cd path/to/your/file`. For example, in my case I run the following in my terminal as this where I saved my files:
 
