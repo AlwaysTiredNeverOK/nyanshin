@@ -1,21 +1,22 @@
-NOTE: You need NodeJS installed!
+<h1>Steps to run this project properly</h1>
 
-Link: https://nodejs.org/en/download
+1. Install NodeJS. Link: https://nodejs.org/en/download
 
-Please run:
+2. Please run:
 
 ```
 sudo npm install -g json-server
 ```
 
+3. Create a `db.json` file.
 
-Navigate to your app's folder. For example, in my case I run:
+4. Navigate to your where you saved your `db.json` file. For example, in my case I run the following in my terminal as this where I saved my files:
 
 ```
 cd Documents/school/Spring\ 2023/Web\ Design\ II/nyanshin
 ```
 
-After that, run the following to start the fake backend server:
+5. After that, run the following to start the fake backend server:
 
 ```
 json-server --watch db.json --port 3000
