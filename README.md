@@ -12,7 +12,7 @@ sudo npm install -g json-server
 
 3. Create a `db.json` file.
 
-4. Navigate to your where you saved your `db.json` file. For example, in my case I run the following in my terminal as this where I saved my files:
+4. Navigate to your where you saved your `db.json` file in the terminal by running `cd path/to/your/file`. For example, in my case I run the following in my terminal as this where I saved my files:
 
 ```
 cd Documents/school/Spring\ 2023/Web\ Design\ II/nyanshin
