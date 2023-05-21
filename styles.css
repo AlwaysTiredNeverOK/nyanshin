@@ -683,8 +683,15 @@ footer {
 #character-carousel {
 	display: flex;
 	justify-content: center;
-	
 	margin-top: 50px;
+}
+
+.character-button {
+  overflow: hidden;
+}
+
+.character-button img {
+  margin-top: -18px;
 }
 
 #Scarameowch, #Nyanderer, #KiddyCat, #RexLapurr, #Cat-eya, #NotaCat, #MissHinya, #ActuallyaBirb {

@@ -31,28 +31,28 @@ function unlockedCharacters() {
         return item.name;
       });
       unlockedData.includes("Scarameowch")
-        ? (unlockedScarameowch.innerText = "Scarameowch")
+        ? (unlockedScarameowch.innerHTML = "<img src='./images/scarameowch.PNG'/ height=100 width=100>")
         : (unlockedScarameowch.disabled = true);
       unlockedData.includes("Nyanderer")
-        ? (unlockedNyanderer.innerText = "Nyanderer")
+        ? (unlockedNyanderer.innerHTML = "<img src='./images/nyanderer.png'/ height=100 width=100>")
         : (unlockedNyanderer.disabled = true);
       unlockedData.includes("Kiddy Cat")
-        ? (unlockedKiddyCat.innerText = "Kiddy Cat")
+        ? (unlockedKiddyCat.innerHTML = "<img src='./images/kiddy-cat.png'/ height=100 width=100>")
         : (unlockedKiddyCat.disabled = true);
       unlockedData.includes("Rex Lapurr")
-        ? (unlockedRexLapurr.innerText = "Rex \n Lapurr")
+        ? (unlockedRexLapurr.innerHTML = "<img src='./images/rex-lapurr.png'/ height=100 width=100>")
         : (unlockedRexLapurr.disabled = true);
       unlockedData.includes("Cat-eya")
-        ? (unlockedCateya.innerText = "Cat-eya")
+        ? (unlockedCateya.innerHTML = "<img src='./images/cat-eya.png'/ height=100 width=100>")
         : (unlockedCateya.disabled = true);
       unlockedData.includes("Not a Cat")
-        ? (unlockedNotaCat.innerText = "Not a Cat")
+        ? (unlockedNotaCat.innerHTML ="<img src='./images/not-a-cat.png'/ height=100 width=100>")
         : (unlockedNotaCat.disabled = true);
       unlockedData.includes("Miss Hinya~")
-        ? (unlockedMissHinya.innerText = "Miss Hinya~")
+        ? (unlockedMissHinya.innerHTML ="<img src='./images/miss-hinya.png'/ height=100 width=100>")
         : (unlockedMissHinya.disabled = true);
       unlockedData.includes("Actually a Birb")
-        ? (unlockedActuallyaBirb.innerText = "Actually \n a Birb")
+        ? (unlockedActuallyaBirb.innerHTML ="<img src='./images/actually-a-birb.png'/ height=100 width=100>")
         : (unlockedActuallyaBirb.disabled = true);
 
       unlockedNonTrash = data.filter((item) => {
