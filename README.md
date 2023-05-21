@@ -1,4 +1,6 @@
-<h1>Steps to run this project properly</h1>
+Link to Github-pages: https://alwaystiredneverok.github.io/nyanshin/index.html
+
+<h1>Steps to run this project properly. This is to ensure that the backend server of the project is running locally in your machine.</h1>
 
 1. Install NodeJS. Link: https://nodejs.org/en/download
 
