@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--typefaces-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nyanshin Impact Wisher | Play</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collection.html">Collection</a></li>
+            <li><a class="selected-nav" href="play.html">Play</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="promo-window">
+        <h2 class="promo-title">Promotional Character</h2>
+        <div class="probability-text">Probability<br />Increased!</div>
+        <p class="description-text">
+          5-Star promotional character can<br />only be obtained in the
+          specified<br />wish during the specified time<br />period(s). View
+          Details for more.
+        </p>
+        <div class="bottom-text-group">
+          <p class="time-text">
+            Time Remaining: &infin;<br />HE'S NEVER LEAVING THIS BANNER
+          </p>
+          <div id="up">Up!</div>
+          <div class="promo-character">
+            <p class="character-name">Scarameowch</p>
+            <p id="stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons-group">
+        <!--Fix Later-->
+        <button
+          type="button"
+          onclick="window.location.href='details.html';"
+          class="left-buttons"
+        >
+          details
+        </button>
+        <button
+          type="button"
+          onclick="window.location.href='history.html';"
+          class="left-buttons"
+        >
+          history
+        </button>
+        <!------------->
+        <button
+          type="button"
+          onclick="window.location.href='wish-result.html';"
+          class="wish-button"
+          id="gacha"
+        >
+          x1 wish
+        </button>
+      </div>
+
+      <footer>
+        <p>&copy; 2023 Vivian Li</p>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/gachascript.js"></script>
+  </body>
+</html>

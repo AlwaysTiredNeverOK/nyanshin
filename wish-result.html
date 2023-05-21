@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--typefaces-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nyanshin Impact Wisher | Wish Results</title>
+  </head>
+
+  <body onload="wishResult()">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="window">
+      <h1 class="window-title">Wish Results</h1>
+      <div class="window-divider"></div>
+      <p id="you-got">You got...</p>
+      <div class="col-5">
+        <p id="character-result"></p>
+        <div id="character-line-box">
+          <p id="character-line"></p>
+        </div>
+        <button id="play-again">play again</button>
+        <button id="return" onclick="window.location.href='play.html';">
+          return
+        </button>
+      </div>
+      <div class="col-6">
+        <img
+          id="character-image"
+          src="images/scara-cat.png"
+          height="350"
+          width="350"
+        />
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Vivian Li</p>
+    </footer>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/gachascript.js"></script>
+    <script type="text/javascript" src="./js/wish-result.js"></script>
+  </body>
+</html>

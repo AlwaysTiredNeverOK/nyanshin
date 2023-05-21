@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--typefaces-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nyanshin Impact Wisher | Collection</title>
+  </head>
+
+  <body onload="historyList()">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collection.html">Collection</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="window">
+      <h1 class="window-title">History</h1>
+      <button id="x-button" onClick="window.location.href='play.html';">
+        <img src="images/x-button.png" alt="x button" />
+      </button>
+      <div class="window-divider"></div>
+      <table id="history">
+        <thead>
+          <tr>
+            <th class="history-label">Item Type</th>
+            <th class="history-label">Item Name</th>
+            <th class="history-label">Time Received</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="row-one-name">No data</td>
+            <td id="row-one-type">No data</td>
+            <td id="row-one-time">No data</td>
+          </tr>
+          <tr>
+            <td id="row-two-name">No data</td>
+            <td id="row-two-type">No data</td>
+            <td id="row-two-time">No data</td>
+          </tr>
+          <tr>
+            <td id="row-three-name">No data</td>
+            <td id="row-three-type">No data</td>
+            <td id="row-three-time">No data</td>
+          </tr>
+          <tr>
+            <td id="row-four-name">No data</td>
+            <td id="row-four-type">No data</td>
+            <td id="row-four-time">No data</td>
+          </tr>
+          <tr>
+            <td id="row-five-name">No data</td>
+            <td id="row-five-type">No data</td>
+            <td id="row-five-time">No data</td>
+          </tr>
+          <tr></tr>
+        </tbody>
+      </table>
+      <div id="history-buttons">
+        <button id="previous-page">◄</button>
+        <button id="next-page">►</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Vivian Li</p>
+    </footer>
+    <script type="text/javascript" src="./js/history.js"></script>
+  </body>
+</html>
